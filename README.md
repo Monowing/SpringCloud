@@ -2,7 +2,8 @@
 SpringCloud的代码
 
 **Maven源用的是:**
-```
+
+```xml
 
 <mirror>
 	<id>alimaven</id>
@@ -17,7 +18,8 @@ SpringCloud的代码
 
 
 **版本选择:**
-```
+```xml
+<!-- cloud版本 -->
 <dependency>
 	<groupId>org.springframework.cloud</groupId>
 	<artifactId>spring-cloud-dependencies</artifactId>
@@ -26,6 +28,7 @@ SpringCloud的代码
 	<scope>import</scope>
 </dependency>
 
+<!-- boot版本 -->
 <dependency>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-dependencies</artifactId>
